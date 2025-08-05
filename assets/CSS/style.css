@@ -192,12 +192,15 @@ footer{
 @media (max-width: 900px) {
   h1 { font-size: 1.8rem; 
     max-width: 15rem;
-    text-align: start;}
+    text-align: start;
+     padding: 20px;}
   h2 { font-size: 1.5rem;
-    text-align: start; }
+    text-align: start;
+     padding: 20px;}
   #text4 h2 { font-size: 1.5rem; 
     max-width: 20rem;
-    text-align: start;}
+    text-align: start;
+    padding: 20px;}
     header p{
     text-align: start;
     }
@@ -206,11 +209,3 @@ footer{
     text-align: start;}
  
 }
-/* 4) Resumo da lógica
-No PC: usa grid-template com várias colunas.
-
-No celular: usa media query para reorganizar tudo em uma coluna (/ 1fr).
-
-Imagens: sempre com max-width: 100%.
-
-Fontes e espaçamentos: ajustados com media queries. */
